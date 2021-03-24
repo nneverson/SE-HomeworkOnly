@@ -1,0 +1,58 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#one{
+    background-color:teal ;
+    
+}
+#two{
+    background-color: green;
+    
+}
+#three{
+    background-color: purple;
+    
+}
+#four{
+    background-color: yellow;
+    
+}
+#five{
+background-color: black;
+
+}
+#six{
+background-color: red;
+
+}
+#seven{
+background-color: orangered;
+
+}
+#eight{
+background-color: orange;
+
+}
+#nine{
+background-color: gray;
+}
+#ten{
+    background-color:pink;
+    
+}
+#parent{
+    font-size: 20px ;
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid;
+}
+.child{
+    /* flex: 1; */
+    width: 100px;
+    height: 100px;
+}
