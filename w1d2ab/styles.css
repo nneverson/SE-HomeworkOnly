@@ -1,0 +1,26 @@
+#nav-bar {
+	background-color: aqua;
+	display: flex;
+	height: 50px;
+	animation: stretch 3s;
+	transform-origin: 0% 50%;
+    justify-content: space-between ;
+	animation-fill-mode: forwards;
+
+}
+div{
+text-align: center;
+padding: 1.2rem;
+}
+
+@keyframes stretch {
+	from {
+	
+		 width:50%
+	}
+
+	to {
+
+		width: 100%;
+	}
+}

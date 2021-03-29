@@ -1,0 +1,28 @@
+body {
+	background-image: url(dd9bq2-261b437f-88b2-47db-a051-e6c2a513e312.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
+#peach {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	animation: run 60s infinite;
+    margin-top: 600px;
+
+	/* top: 40px;
+	left: 0px;
+	animation-name: run;
+	animation: duration 5s;
+	animation-fill-mode: forwards; */
+}
+@keyframes run {
+	0%{
+		transform: translateX(0px);
+	}
+	10% {
+		transform: translateY(-200px);
+	}
+}
